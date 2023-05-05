@@ -1,27 +1,27 @@
 #include<iostream>
-using namespace std;
+#include"vec3.h"
+#include"color.h"
+
 
 const int ImgW =256;
 const int ImgH =256;
 
 int main()
 {
-	cout<<"P3\n"<<ImgW<<" "<<ImgH<<"\n255\n";
+	std::cout<<"P3\n"<<ImgW<<" "<<ImgH<<"\n255\n";
 
 	for(int i=ImgH-1;i>=0;i--)
 	{
+		std::cerr << "\rScanlines remaining: " << i << ' ' << std::flush;
 		for(int j=0;j<ImgW;j++)
 		{
-			double r = double(j)/(ImgW-1);
-			double g = double(i)/(ImgH-1);
-			double b = 0.25;
+			color pc (double(j)/(ImgW-1),double(i)/(ImgH-1),0.25);
 
-			int ir = int(r*255.99);
-			int ig = int(g*255.99);
-			int ib = int(b*255.99);
+			write_color(std::cout,pc);
 
-			cout<<ir<<" "<<ig<<" "<<ib<<"\n";
 		}
 	}
+
+	std::cerr<<"\nDone\n";
 	return 0;
 }
