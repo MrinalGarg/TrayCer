@@ -1,0 +1,308 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"aspect_ratio"
+			],
+			[
+				"s",
+				"samples_per_pixel"
+			],
+			[
+				"hi",
+				"hit_at_all"
+			],
+			[
+				"hit",
+				"hit_record"
+			],
+			[
+				"hitt",
+				"hittable_list"
+			],
+			[
+				"b",
+				"beginend\t$1.begin(), $1.end()"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/mnt/c/Users/mrina/Desktop/TrayCer/material.h",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/camera.h",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/test.cpp",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/materials.h",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/sphere.h",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/hittable_list.h",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/image6.cpp",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/hittable.h",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/stl_vector.h",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/vector.h",
+		"/mnt/c/Users/mrina/Desktop/hittable.h",
+		"/mnt/c/Users/mrina/Desktop/sphere.h",
+		"/mnt/c/Users/mrina/Desktop/image4.cpp",
+		"/mnt/c/Users/mrina/Desktop/image2.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/cf4.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/Cf2.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/test.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/CFA.py",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/VFC.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/B1_Q2.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/L10_B1_Q1",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/cc1.cpp",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/Image1new.cpp",
+		"/mnt/c/Users/mrina/Desktop/TrayCer/image",
+		"/home/mrinal/.bashrc",
+		"/mnt/c/Users/mrina/Desktop/bashrc",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/FIBN.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/Cf3.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/ll.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/cc.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/VFA.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/CFA.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/1.py",
+		"/mnt/c/Users/mrina/Desktop/PYCODES/breakout1.py",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/chatchut.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/1dn.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/prep.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/DMA.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/sattest.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/det2.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/CF1.cpp",
+		"/mnt/c/Users/mrina/Desktop/PYCODES/brekout1.py",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/L10_B1_Q1.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/help.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/sattest2.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/region.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/L08_Q3.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/L08_Q4.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/L08_q1.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/L08_Q1.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/gen.py",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/inp.in",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/selection_sorting.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/stringl1.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/stringl2.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/stringl3.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/bleh.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/chun.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/magneticrocks.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/sherlockcodedecryption.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/lmin2.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/lmin.cpp",
+		"/mnt/c/Users/mrina/Desktop/PYCODES/mbipth.py",
+		"/mnt/c/Users/mrina/Desktop/PYCODES/virn.py",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/mode.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/bakchodi.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/lmin3",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/a.out",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/a.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/permutation.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/marksgaye.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/decode_message.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/findwater.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/findwater2.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/bisection.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/vishvas.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/maximum_compatibility_score.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/123fetish.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/red.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/pointers.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/binary_search.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/binary.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/tree.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/jnnzwj.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/selection_sorting",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/arrays.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/arrays",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/satyankar'sfetish.cpp",
+		"/home/mrinal/e.cpp",
+		"/home/mrinal/pyramid.cpp",
+		"/home/mrinal/binary.cpp",
+		"/home/mrinal/binary",
+		"/home/mrinal/cp.cpp",
+		"/home/mrinal/lnx.cpp",
+		"/home/mrinal/newtonraphson.cpp",
+		"/home/mrinal/rotate.cpp",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/test",
+		"/mnt/c/Users/mrina/Desktop/CPP Codes/apple.cpp",
+		"/home/mrinal/palindrome.cpp",
+		"/home/mrinal/factorial.cpp",
+		"/home/mrinal/cry.cpp",
+		"/home/mrinal/taylor.cpp",
+		"/home/mrinal/PaintStars.cpp",
+		"/home/mrinal/k.cpp",
+		"/home/mrinal/magic.cpp",
+		"/home/mrinal/Programmes/factorial/test.cpp",
+		"/home/mrinal/perfectsquare.cpp",
+		"/home/mrinal/virahanka_chocolates.cpp",
+		"/home/mrinal/Programmes/Lab_Practices/virahanka_chocolates.cpp",
+		"/home/mrinal/Programmes/Lab_Practices/virhanka_chocolates/virahanka_chocolates.cpp",
+		"/home/mrinal/Programmes/Lab_Practices/virhanka_chocolates/virhanka_chocolates.cpp",
+		"/home/mrinal/anirudh.cpp",
+		"/home/mrinal/Programmes/Lab_Practices/virhanka_chocolates/virhanka_chocolates",
+		"/home/mrinal/hourglass.cpp",
+		"/home/mrinal/CS101/chess.cpp",
+		"/home/mrinal/CS101/test.cpp",
+		"/home/mrinal/CS101/quadraticroots.cpp",
+		"/home/mrinal/.config/sublime-text/Packages/User/cpp.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 56.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 56.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "color.sublime-project",
+	"replace":
+	{
+		"height": 106.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
