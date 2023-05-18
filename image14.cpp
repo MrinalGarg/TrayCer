@@ -6,8 +6,9 @@
 #include "camera.h"
 #include"vec3.h"
 #include "material.h"
-#include <iostream>
-#include <fstream>
+#include<iostream>
+#include<fstream>
+#include<string>
 
 color ray_color(const ray& r, const hittable_list &world, int depth) {
     vec3 unit_direction = unit_vector(r.direction());

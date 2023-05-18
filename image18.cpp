@@ -6,6 +6,7 @@
 #include "camera.h"
 #include"vec3.h"
 #include "material.h"
+#include<fstream>
 #include <iostream>
 
 color ray_color(const ray& r, const hittable_list &world, int depth) {
@@ -36,8 +37,8 @@ hittable_list random_scene() {
     auto ground_material = make_shared<lambertian>(color(0.5, 0.5, 0.5));
     world.add(make_shared<sphere>(point3(0,-1000,0), 1000, ground_material));
 
-    for (int a = -11; a < 11; a++) {
-        for (int b = -11; b < 11; b++) {
+    for (int a = -10; a < 1; a++) {
+        for (int b = -10; b < 1; b++) {
             auto choose_mat = random_double();
             point3 center(a + 0.9*random_double(), 0.2, b + 0.9*random_double());
 
@@ -76,7 +77,7 @@ hittable_list random_scene() {
     return world;
 }
 
-int main() {
+int main(int argc, char*argv[]) {
 
     // Image
 
@@ -101,8 +102,9 @@ int main() {
 
     camera cam(lookfrom, lookat, vup, 20, aspect_ratio, aperture, dist_to_focus);
     // Render
+    std::ofstream my_file(argv[1]);
 
-    std::cout << "P3\n" << image_width << " " << image_height << "\n255\n";
+    my_file << "P3\n" << image_width << " " << image_height << "\n255\n";
 
     for (int j = image_height-1; j >= 0; --j) {
         std::cerr << "\rScanlines remaining: " << j << ' ' << std::flush;
@@ -114,9 +116,10 @@ int main() {
                 ray r = cam.get_ray(u, v);
                 pixel_color += ray_color(r, world, max_depth);
             }
-            write_color(std::cout, pixel_color, samples_per_pixel, Gamma);
+            write_color(my_file, pixel_color, samples_per_pixel, Gamma);
         }
     }
-    return 0;
+    
     std::cerr << "\nDone.\n";
+    return 0;
 }
