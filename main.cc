@@ -8,7 +8,7 @@
 #include "material.h"
 #include<fstream>
 #include <iostream>
-#include</mnt/c/Users/mrina/Desktop/TrayCer/json-develop/json-develop/single_include/nlohmann/json.hpp>
+#include</mnt/c/Users/mrina/Desktop/My Projects/TrayCer/json-develop/json-develop/single_include/nlohmann/json.hpp>
 
 color ray_color(const ray& r, const hittable_list &world, int depth) {
     vec3 unit_direction = unit_vector(r.direction());
@@ -101,7 +101,7 @@ int main(int argc, char * argv[])
             // Add the sphere to the world
             world.add(make_shared<sphere>(center, radius, sphere_material));
         }
-}
+    }
 
 
     // Camera
